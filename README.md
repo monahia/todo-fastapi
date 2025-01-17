@@ -1,3 +1,3 @@
 ##пришел домой и жоска запустил проект дальнейшей инструкцией##
 
-- pip intall -r requirements.txt
+- pip install -r requirements.txt
