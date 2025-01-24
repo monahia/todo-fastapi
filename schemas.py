@@ -1,10 +1,13 @@
 from pydantic import BaseModel
 
-class TaskCreate(BaseModel):
+class TaskBase(BaseModel):
     title: str
     description: str
 
-class Task(TaskCreate):
+class TaskCreate(TaskBase):
+    pass
+
+class Task(TaskBase):
     id: int
 
     class Config:
